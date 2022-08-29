@@ -1,0 +1,21 @@
+{
+    {
+        {
+            {
+                var sera = 'Será???'
+                console.log(sera)
+            }
+        }
+    }    
+}
+
+console.log(sera)       // como o var não é uma funcion ele é visivel em todo programa 
+
+function teste(){
+    var local = 123
+    console.log(local)
+
+}
+
+//teste()
+//console.log(local)                        como o var foi criado dentro da function, ele só aparece dentro da funcao, entao de descomeentar essa linha derá erro 
